@@ -1,0 +1,19 @@
+[
+  "packet_size",
+  "request_frequency_log",
+  "failed_logins",
+  "duration",
+  "src_bytes_log",
+  "dst_bytes_log",
+  "unique_ports",
+  "syn_ratio",
+  "bytes_ratio",
+  "traffic_volume_log",
+  "ports_per_second",
+  "login_rate",
+  "is_auth_port",
+  "is_night",
+  "protocol_tcp",
+  "protocol_udp",
+  "protocol_icmp"
+]
