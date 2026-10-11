@@ -476,10 +476,10 @@ timestamp,src_ip,severity,attack_type,attack_score,reason,actual_label
 2026-10-04 11:58:48,34.94.61.184,CRITICAL,BruteForce,0.9941192221531452,10 failed logins against port 21: possible password guessing,BruteForce
 2026-10-04 12:08:44,12.227.104.216,CRITICAL,BruteForce,0.9764990620987647,6 failed logins against port 22: possible password guessing,BruteForce
 2026-10-04 12:12:33,106.47.117.203,LOW,Anomaly,0.3637647297577481,traffic pattern differs from the normal baseline (unsupervised anomaly flag),Normal
-2026-10-04 12:18:42,14.37.29.30,LOW,DoS,0.6003734173136042,56 requests/s with 1% half-open (SYN) connections: possible denial-of-service flood,Normal
+2026-10-04 12:18:42,14.37.29.30,LOW,DoS,0.600373417313604,56 requests/s with 1% half-open (SYN) connections: possible denial-of-service flood,Normal
 2026-10-04 12:33:03,39.247.90.78,HIGH,DoS,0.9602801188001346,490 requests/s with 9% half-open (SYN) connections: possible denial-of-service flood,DoS
 2026-10-04 12:33:08,18.195.102.185,HIGH,DoS,1.0,247 requests/s with 34% half-open (SYN) connections: possible denial-of-service flood,DoS
-2026-10-04 12:34:23,63.200.141.192,LOW,DoS,0.5526954530091877,77 requests/s with 9% half-open (SYN) connections: possible denial-of-service flood,Normal
+2026-10-04 12:34:23,63.200.141.192,LOW,DoS,0.5526954530091878,77 requests/s with 9% half-open (SYN) connections: possible denial-of-service flood,Normal
 2026-10-04 12:44:52,115.238.129.87,CRITICAL,BruteForce,1.0,17 failed logins against port 22: possible password guessing,BruteForce
 2026-10-04 12:45:39,190.254.237.103,MEDIUM,PortScan,0.8387945754678081,6 different ports probed in one window: possible port scan,PortScan
 2026-10-04 12:48:27,42.115.198.186,LOW,DoS,0.5001493082559438,33 requests/s with 13% half-open (SYN) connections: possible denial-of-service flood,Normal
@@ -539,7 +539,7 @@ timestamp,src_ip,severity,attack_type,attack_score,reason,actual_label
 2026-10-04 22:14:00,87.124.247.38,CRITICAL,PortScan,0.9193181762447973,8 different ports probed in one window: possible port scan,PortScan
 2026-10-04 22:15:46,23.48.222.223,LOW,DoS,0.5933614037149582,48 requests/s with 0% half-open (SYN) connections: possible denial-of-service flood,DoS
 2026-10-04 22:21:31,113.152.211.53,CRITICAL,BruteForce,1.0,15 failed logins against port 21: possible password guessing,BruteForce
-2026-10-04 22:54:03,56.113.183.96,LOW,Anomaly,0.29038517511730166,traffic pattern differs from the normal baseline (unsupervised anomaly flag),Normal
+2026-10-04 22:54:03,56.113.183.96,LOW,Anomaly,0.29038517511730144,traffic pattern differs from the normal baseline (unsupervised anomaly flag),Normal
 2026-10-04 23:14:51,56.180.246.130,CRITICAL,PortScan,0.9786131010148872,11 different ports probed in one window: possible port scan,PortScan
 2026-10-04 23:33:01,137.98.185.42,LOW,DoS,0.5540597383938068,46 requests/s with 5% half-open (SYN) connections: possible denial-of-service flood,DoS
 2026-10-04 23:41:22,115.238.129.87,CRITICAL,BruteForce,0.9961171584119193,10 failed logins against port 22: possible password guessing,BruteForce
@@ -558,7 +558,7 @@ timestamp,src_ip,severity,attack_type,attack_score,reason,actual_label
 2026-10-05 01:27:19,62.180.86.89,LOW,DoS,0.5458482062721688,76 requests/s with 2% half-open (SYN) connections: possible denial-of-service flood,DoS
 2026-10-05 01:28:48,210.143.75.31,CRITICAL,BruteForce,1.0,16 failed logins against port 22: possible password guessing,BruteForce
 2026-10-05 01:36:59,137.98.185.42,LOW,DoS,0.5426501169920819,43 requests/s with 0% half-open (SYN) connections: possible denial-of-service flood,DoS
-2026-10-05 01:38:56,214.141.120.220,LOW,Anomaly,0.46857537195587384,traffic pattern differs from the normal baseline (unsupervised anomaly flag),DoS
+2026-10-05 01:38:56,214.141.120.220,LOW,Anomaly,0.46857537195587395,traffic pattern differs from the normal baseline (unsupervised anomaly flag),DoS
 2026-10-05 01:55:43,119.45.141.192,LOW,Anomaly,0.0074434782608695516,traffic pattern differs from the normal baseline (unsupervised anomaly flag),Normal
 2026-10-05 01:58:09,204.225.25.165,LOW,DoS,0.6513564359857857,43 requests/s with 5% half-open (SYN) connections: possible denial-of-service flood,Normal
 2026-10-05 02:02:26,116.148.71.79,CRITICAL,DoS,0.955164062407482,406 requests/s with 49% half-open (SYN) connections: possible denial-of-service flood,DoS
@@ -619,7 +619,7 @@ timestamp,src_ip,severity,attack_type,attack_score,reason,actual_label
 2026-10-05 13:03:44,18.195.102.185,CRITICAL,DoS,1.0,219 requests/s with 36% half-open (SYN) connections: possible denial-of-service flood,DoS
 2026-10-05 13:04:13,118.212.92.145,CRITICAL,BruteForce,0.94990251994543,5 failed logins against port 22: possible password guessing,BruteForce
 2026-10-05 13:05:27,78.21.17.172,LOW,Anomaly,0.0889097532661196,traffic pattern differs from the normal baseline (unsupervised anomaly flag),Normal
-2026-10-05 13:11:48,98.189.166.109,LOW,Anomaly,0.04920415230225894,traffic pattern differs from the normal baseline (unsupervised anomaly flag),Normal
+2026-10-05 13:11:48,98.189.166.109,LOW,Anomaly,0.04920415230225916,traffic pattern differs from the normal baseline (unsupervised anomaly flag),Normal
 2026-10-05 13:18:42,18.195.102.185,HIGH,DoS,1.0,1697 requests/s with 13% half-open (SYN) connections: possible denial-of-service flood,DoS
 2026-10-05 13:19:35,204.225.25.165,LOW,DoS,0.6030443160286976,48 requests/s with 0% half-open (SYN) connections: possible denial-of-service flood,Normal
 2026-10-05 13:32:33,149.39.179.114,LOW,DoS,0.5344054506713654,26 requests/s with 1% half-open (SYN) connections: possible denial-of-service flood,DoS
@@ -632,7 +632,7 @@ timestamp,src_ip,severity,attack_type,attack_score,reason,actual_label
 2026-10-05 15:21:19,101.209.46.54,CRITICAL,BruteForce,0.9998243155852554,16 failed logins against port 3389: possible password guessing,BruteForce
 2026-10-05 15:22:47,171.117.9.179,CRITICAL,BruteForce,1.0,18 failed logins against port 22: possible password guessing,BruteForce
 2026-10-05 15:23:41,172.198.22.12,LOW,Anomaly,0.0,traffic pattern differs from the normal baseline (unsupervised anomaly flag),Normal
-2026-10-05 15:46:48,86.126.215.198,LOW,Anomaly,0.24263314566050065,traffic pattern differs from the normal baseline (unsupervised anomaly flag),Normal
+2026-10-05 15:46:48,86.126.215.198,LOW,Anomaly,0.24263314566050087,traffic pattern differs from the normal baseline (unsupervised anomaly flag),Normal
 2026-10-05 15:53:49,153.116.112.151,CRITICAL,DoS,1.0,496 requests/s with 85% half-open (SYN) connections: possible denial-of-service flood,DoS
 2026-10-05 15:59:32,49.212.150.212,LOW,Anomaly,0.009546192154887723,traffic pattern differs from the normal baseline (unsupervised anomaly flag),Normal
 2026-10-05 16:17:16,64.207.231.172,CRITICAL,PortScan,1.0,52 different ports probed in one window: possible port scan,PortScan
@@ -663,7 +663,7 @@ timestamp,src_ip,severity,attack_type,attack_score,reason,actual_label
 2026-10-05 20:27:18,210.143.75.31,CRITICAL,BruteForce,0.9887317408382226,15 failed logins against port 3389: possible password guessing,BruteForce
 2026-10-05 20:32:54,101.51.137.123,CRITICAL,PortScan,1.0,48 different ports probed in one window: possible port scan,PortScan
 2026-10-05 20:38:15,210.143.75.31,CRITICAL,BruteForce,1.0,17 failed logins against port 22: possible password guessing,BruteForce
-2026-10-05 20:42:37,14.220.111.222,LOW,Anomaly,0.03333691310291231,traffic pattern differs from the normal baseline (unsupervised anomaly flag),Normal
+2026-10-05 20:42:37,14.220.111.222,LOW,Anomaly,0.0333369131029122,traffic pattern differs from the normal baseline (unsupervised anomaly flag),Normal
 2026-10-05 20:49:04,49.17.67.164,CRITICAL,DoS,0.9992531921088702,259 requests/s with 62% half-open (SYN) connections: possible denial-of-service flood,DoS
 2026-10-05 21:02:16,99.107.8.69,LOW,DoS,0.6655463691743866,66 requests/s with 1% half-open (SYN) connections: possible denial-of-service flood,Normal
 2026-10-05 21:05:32,34.94.61.184,CRITICAL,BruteForce,0.9989734983567583,20 failed logins against port 22: possible password guessing,BruteForce
@@ -897,7 +897,7 @@ timestamp,src_ip,severity,attack_type,attack_score,reason,actual_label
 2026-10-07 09:59:33,129.167.25.116,LOW,Anomaly,0.0,traffic pattern differs from the normal baseline (unsupervised anomaly flag),Normal
 2026-10-07 10:23:55,27.228.53.29,HIGH,DoS,0.999520785866358,302 requests/s with 17% half-open (SYN) connections: possible denial-of-service flood,DoS
 2026-10-07 10:34:12,170.114.212.187,LOW,Anomaly,0.3247756645264279,traffic pattern differs from the normal baseline (unsupervised anomaly flag),Normal
-2026-10-07 10:36:20,49.185.211.93,LOW,Anomaly,0.31108515563512995,traffic pattern differs from the normal baseline (unsupervised anomaly flag),Normal
+2026-10-07 10:36:20,49.185.211.93,LOW,Anomaly,0.31108515563512984,traffic pattern differs from the normal baseline (unsupervised anomaly flag),Normal
 2026-10-07 10:37:56,204.69.196.225,LOW,DoS,0.6452273255494022,25 requests/s with 2% half-open (SYN) connections: possible denial-of-service flood,DoS
 2026-10-07 10:45:49,202.213.38.115,CRITICAL,BruteForce,1.0,15 failed logins against port 3389: possible password guessing,BruteForce
 2026-10-07 10:54:38,115.238.129.87,CRITICAL,BruteForce,0.9532043707975472,5 failed logins against port 3389: possible password guessing,BruteForce

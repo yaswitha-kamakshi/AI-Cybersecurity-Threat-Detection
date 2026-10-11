@@ -131,10 +131,10 @@ A lower threshold catches more attacks but creates more false alarms. Where to s
 | Metric | Result |
 |---|---|
 | Records analysed | 4,000 |
-| Alerts raised | 993 |
-| Real attacks caught by the classifier | 90.4% (723 of 800) |
-| False alarms on normal traffic | 3.5% |
-| **HIGH/CRITICAL alerts that were real attacks** | **98.3% (633 of 644)** |
+| Alerts raised | 999 |
+| Real attacks caught by the classifier | 90.8% (726 of 800) |
+| False alarms on normal traffic | 3.6% |
+| **HIGH/CRITICAL alerts that were real attacks** | **98.3% (636 of 647)** |
 
 Severity comes from model confidence and is raised one level when both detectors agree, so the top of the alert queue is highly reliable.
 
@@ -165,7 +165,7 @@ curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -
 
 - **Simulated data.** Results are not comparable with real-world systems, and the models have not been tested on real traffic.
 - **Slow DoS is the weak spot.** About 21% of DoS windows are missed and some busy normal users are flagged. Real-world fixes include longer time windows and per-source history.
-- **The Isolation Forest adds little here.** Only 5 of its 157 extra alerts were real attacks the classifier missed. It would matter more with genuinely new attack types, which this simulation does not contain.
+- **The Isolation Forest adds little here.** Only 6 of its 158 extra alerts were real attacks the classifier missed. It would matter more with genuinely new attack types, which this simulation does not contain.
 - Each row is one independent window, so there is no sequence modelling across time.
 - Network attacks only: no phishing or malware detection.
 
