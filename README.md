@@ -112,7 +112,7 @@ Random Forest attack-type macro F1: **0.915**. Accuracy alone is misleading here
 |---|---|---|
 | BruteForce | 100% | strongest signal (failed logins on auth ports) |
 | PortScan | about 94% | |
-| DoS | about 79% | weakest: low-rate floods look like busy normal users |
+| DoS | about 80% | weakest: low-rate floods look like busy normal users |
 
 ![Confusion matrix](docs/images/04_confusion_matrix.png)
 
@@ -121,7 +121,7 @@ Random Forest attack-type macro F1: **0.915**. Accuracy alone is misleading here
 | Threshold | Precision | Recall |
 |---|---|---|
 | 0.2 | 0.72 | 0.99 |
-| 0.5 | 0.87 | 0.90 |
+| 0.5 | 0.86| 0.91 |
 | 0.9 | 0.99 | 0.76 |
 
 A lower threshold catches more attacks but creates more false alarms. Where to set it depends on the cost of a missed attack.
@@ -164,7 +164,7 @@ curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -
 ## Limitations
 
 - **Simulated data.** Results are not comparable with real-world systems, and the models have not been tested on real traffic.
-- **Slow DoS is the weak spot.** About 21% of DoS windows are missed and some busy normal users are flagged. Real-world fixes include longer time windows and per-source history.
+- **Slow DoS is the weak spot.** About 20% of DoS windows are missed and some busy normal users are flagged. Real-world fixes include longer time windows and per-source history.
 - **The Isolation Forest adds little here.** Only 6 of its 158 extra alerts were real attacks the classifier missed. It would matter more with genuinely new attack types, which this simulation does not contain.
 - Each row is one independent window, so there is no sequence modelling across time.
 - Network attacks only: no phishing or malware detection.
